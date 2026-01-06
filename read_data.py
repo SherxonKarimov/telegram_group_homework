@@ -11,6 +11,6 @@ def read_data(file_path: str)->dict:
     """
     #open file
     with open(file_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)  # Load JSON data into a dictionary
+        data = json.load(file)  
     return data
     
